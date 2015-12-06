@@ -1,0 +1,9 @@
+<template name="argnull" value="if(!$par$) throw Error('$par$ should be truthy');" description="Throws an exception when the given parameter is null" toReformat="false" toShortenFQNames="true">
+  <variable name="par" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_SCRIPT" value="true" />
+    <option name="JS_EXPRESSION" value="true" />
+    <option name="JSX_HTML" value="true" />
+    <option name="JS_STATEMENT" value="true" />
+  </context>
+</template>
